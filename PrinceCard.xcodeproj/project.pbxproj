@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A354881D266A619A0021FB59 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354881C266A619A0021FB59 /* InfoView.swift */; };
 		A35C00EB2668A4D80094CA0D /* PrinceCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C00EA2668A4D80094CA0D /* PrinceCardApp.swift */; };
 		A35C00ED2668A4D80094CA0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C00EC2668A4D80094CA0D /* ContentView.swift */; };
 		A35C00EF2668A4D90094CA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35C00EE2668A4D90094CA0D /* Assets.xcassets */; };
 		A35C00F22668A4D90094CA0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35C00F12668A4D90094CA0D /* Preview Assets.xcassets */; };
+		A35C00FC2668B3C20094CA0D /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A35C00FB2668B3C20094CA0D /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A354881C266A619A0021FB59 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		A35C00E72668A4D80094CA0D /* PrinceCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrinceCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35C00EA2668A4D80094CA0D /* PrinceCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceCardApp.swift; sourceTree = "<group>"; };
 		A35C00EC2668A4D80094CA0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A35C00EE2668A4D90094CA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A35C00F12668A4D90094CA0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A35C00F32668A4D90094CA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35C00FB2668B3C20094CA0D /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		A35C00E92668A4D80094CA0D /* PrinceCard */ = {
 			isa = PBXGroup;
 			children = (
+				A35C00FA2668B3B60094CA0D /* fonts */,
 				A35C00EA2668A4D80094CA0D /* PrinceCardApp.swift */,
 				A35C00EC2668A4D80094CA0D /* ContentView.swift */,
 				A35C00EE2668A4D90094CA0D /* Assets.xcassets */,
 				A35C00F32668A4D90094CA0D /* Info.plist */,
 				A35C00F02668A4D90094CA0D /* Preview Content */,
+				A354881C266A619A0021FB59 /* InfoView.swift */,
 			);
 			path = PrinceCard;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				A35C00F12668A4D90094CA0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A35C00FA2668B3B60094CA0D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A35C00FB2668B3C20094CA0D /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C00FC2668B3C20094CA0D /* Pacifico-Regular.ttf in Resources */,
 				A35C00F22668A4D90094CA0D /* Preview Assets.xcassets in Resources */,
 				A35C00EF2668A4D90094CA0D /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A35C00ED2668A4D80094CA0D /* ContentView.swift in Sources */,
+				A354881D266A619A0021FB59 /* InfoView.swift in Sources */,
 				A35C00EB2668A4D80094CA0D /* PrinceCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
